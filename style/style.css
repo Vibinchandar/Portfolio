@@ -59,9 +59,7 @@ hr{
     font-size: 1.2rem;
     font-weight:600;
     border-radius: 10px;
-    margin: 1rem;
-    color: var(--clr-white);
-    background-color: var(--clr-main);
+    margin: 1rem;    
     border: 2px solid var(--clr-main);
 }
 .btn:hover{
@@ -252,6 +250,7 @@ margin: 0 1rem;
 }
 .footer p{
     font-size: 1.25rem;
+    padding-top: 1.6rem;
     font-weight: 900;
     color: var(--clr-white);
 }
@@ -280,6 +279,11 @@ margin: 0 1rem;
    .blog-list-iteam{    
     height: 15rem;
 text-align: center;
+   }
+   .contact-link-container{
+    display: flex;    
+    align-content: center;
+    justify-content: center;
    }
 .blog-list-iteam img{
     display: none;
